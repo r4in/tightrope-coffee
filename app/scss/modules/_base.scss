@@ -1,0 +1,77 @@
+* {
+  transition: all 200ms ease-in-out;
+}
+
+:root {
+  font-size: 16px;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $source;
+  color: #fff;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+h1 {
+  font-family: $futura;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+h6 {
+  font-family: $futura2;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.8125px;
+  text-transform: uppercase;
+  color: #5bc5c6;
+}
+
+section {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+a {
+  color: $color-sea;
+  &:hover {
+    color: $color-sea-hover;
+    text-decoration: none;
+  }
+}

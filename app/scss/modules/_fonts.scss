@@ -1,0 +1,25 @@
+// Add typeface imports here
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
+
+@font-face {
+  font-family: "Futura LT Condensed Bold";
+  src: url("../../fonts/FuturaLT-CondensedBold.woff2") format("woff2"),
+    url("../../fonts/FuturaLT-CondensedBold.woff") format("woff"),
+    url("../../fonts/FuturaLT-CondensedBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Futura LT Bold";
+  src: url("../../fonts/FuturaLT-Bold.woff2") format("woff2"),
+    url("../../fonts/FuturaLT-Bold.woff") format("woff"),
+    url("../../fonts/FuturaLT-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+$source: "Source Sans Pro", sans-serif;
+$futura: "Futura LT Condensed Bold", sans-serif;
+$futura2: "Futura LT Bold", sans-serif;

@@ -1,0 +1,22 @@
+.page-front {
+  background: #000 url("../../img/bg.png") center center;
+  background-size: cover;
+  @include breakpoint(md) {
+    text-align: center;
+  }
+  .section-front {
+    .phone {
+      @include breakpoint(md) {
+        display: none;
+      }
+    }
+
+    .phone2 {
+      margin: 30px auto;
+      display: none;
+      @include breakpoint(md) {
+        display: flex;
+      }
+    }
+  }
+}
